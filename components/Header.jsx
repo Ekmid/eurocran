@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section className='flex flex-center px-52 py-2 font-sans bg-zinc-900'>
+    <section className='flex px-52 py-2 font-sans bg-zinc-900'>
 
         <logo className='basis-1/4 flex-center'>
             <img className="w-36 mr-10" src='/assets/icons/logo.svg' alt="Еврокран" />
@@ -36,7 +36,7 @@ const Header = () => {
                 </adres>
             </timeadres>
 
-            <button className='font-bold py-1.5 px-4 h-11 border-2 border-yellow-500'>
+            <button className='font-bold py-1.5 px-4 h-11 border-2 border-yellow-500 hover:ease-in hover:duration-200 hover:bg-yellow-500'>
                 Свяжитесь со мной
             </button>
 

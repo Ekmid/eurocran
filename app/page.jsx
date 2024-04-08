@@ -9,19 +9,7 @@ const Home = () => {
       <Header/>
       <Nav/>
       <Banner/>
-
-        <h1 className='head_text text-center'>
-            Аренда спецтехники Liebherr
-            <br className='max-md:hidden' />
-            <span className='orange-gradient 
-            text-center'>для любых задач</span>
-        </h1>
-        <p className='desc text-center'>
-            Мобильные, гусеничные и башенные краны 
-            LIEBHERR в аренду для любых задач и грузов. 
-            работаем по всей России
-        </p>
-        <Footer/>
+      <Footer/>
     </section>
   )
 }

@@ -44,8 +44,6 @@ body {
   width: 100%;
   height: 700px;
   color: white; /* Цвет текста будет белым для лучшей читаемости */
-  text-align: center; /* Выравниваем текст по центру */
-  box-sizing: border-box;
   background-size: cover;
   background-position: center;
   background-image: url('/assets/images/offer.png');
@@ -86,6 +84,12 @@ body {
   justify-content: center;
 }
 
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* Размещение элементов в колонку с выравниванием по центру */
 .flex-column-center {
   display: flex;
@@ -107,7 +111,33 @@ body {
   align-items: flex-end;
 }
 
+.flex-column-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .flex-justify-between {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: flex-start;
+}
+
+.flex-left-end {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease-in-out; /* добавляем плавный переход */
+}
+
+.rotated {
+  transform: translateX(-10px); /* смещаем изображение влево при наведении */
 }

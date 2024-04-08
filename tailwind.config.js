@@ -14,7 +14,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sans': ['Montserrat', 'sans-serif']
+      'sans': ['Montserrat', 'sans-serif'],
+      'roboto': ['Rodoto', 'sans-serif'],
     }
   },
   plugins: [],
