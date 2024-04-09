@@ -1,14 +1,14 @@
 import Footer from "@components/Footer"
 import Header from "@components/Header"
 import Nav from "@components/Nav"
-import Banner from "@components/Banner"
+import Banner1 from "@components/Banner1"
 
 const Home = () => {
   return (
     <section className='w-full flex-col'>
       <Header/>
       <Nav/>
-      <Banner/>
+      <Banner1/>
       <Footer/>
     </section>
   )
