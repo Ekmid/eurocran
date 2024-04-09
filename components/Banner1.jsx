@@ -1,11 +1,10 @@
-import Container from 'postcss/lib/container';
 import React from 'react'
 
 const Banner = () => {
   return (
-    <section className='font-sans flex offer'>
+    <section className='font-sans flex offer xl:h-5/6'>
 
-        <offer className='w-1/2 fog py-32 pl-48 relative'>
+        <offer className='w-1/2 fog py-32 xl:pl-32 pl-48 relative'>
 
           <h1 className='text-black flex-start font-extrabold text-4xl text-left pb-7'>
             Аренда спецтехники <br/>
@@ -18,11 +17,11 @@ const Banner = () => {
           </span>
 
           <btns className='flex-start pt-10 font-semibold'>
-            <button className='text-white bg-yellow-500 h-12 px-10 mr-10 hover:ease-in hover:duration-300 hover:bg-gray-900'>Заказать звонок</button>
-            <button className='text-black border border-black h-12 px-10 hover:ease-in hover:duration-300 hover:bg-slate-300'>Каталог техники</button>
+            <button className='text-white bg-yellow-500 h-12 px-10 mr-10 hover:ease-in hover:duration-300 hover:bg-gray-800'>Заказать звонок</button>
+            <button className='text-black border border-black h-12 px-10 hover:ease-in hover:duration-300 hover:bg-yellow-500'>Каталог техники</button>
           </btns>
 
-          <button className='border-2 border-white p-8 absolute bottom-0 right-0'>
+          <button className='border-2 border-white xl:p-6 p-8 absolute bottom-0 right-0'>
             <img className='origin-center rotate-180 h-5 w-5' src='assets/icons/arrow.svg'/>
           </button>
         </offer>
@@ -35,7 +34,7 @@ const Banner = () => {
           </div>
 
 
-          <button className='absolute bottom-0 left-0 p-8 bg-yellow-500 flex-left-end border-2 border-yellow-500'>
+          <button className='absolute bottom-0 left-0 xl:p-6 p-8 bg-yellow-500 flex-left-end border-2 border-yellow-500'>
             <img src='assets/icons/arrow.svg' className='h-5 w-5 arrow-icon'/>
           </button>
 
