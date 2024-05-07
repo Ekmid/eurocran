@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section className='flex-row-between px-8 py-2 font-sans bg-zinc-900 '>
+    <header className='flex-row-between px-52 py-2 font-sans bg-zinc-900 '>
 
-        <logo className='flex-center'>
+        <logo className='flex-center 2xl:w-1/4'>
             <img className="w-36 mr-10" src='/assets/icons/logo.svg' alt="Еврокран" />
             <text className='flex flex-col'>
                 <span className='text-white font-bold'>
@@ -13,7 +13,7 @@ const Header = () => {
             </text>
         </logo>
 
-        <info className='flex-center'>
+        <info className='flex-center 2xl:w-3/4'>
             <timeadres className='pr-10 flex flex-justify-between flex-center'>
                 <worktime className='p-6 flex flex-center'>
                     <img className='h-8 pr-3' src='/assets/icons/clock.svg' alt='Clock icon'/>
@@ -52,7 +52,7 @@ const Header = () => {
                 </text>
             </phone>
         </info>
-    </section>
+    </header>
   )
 }
 

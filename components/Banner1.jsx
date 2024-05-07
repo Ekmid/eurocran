@@ -2,9 +2,9 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section className='font-sans flex offer xl:h-5/6'>
+    <section className='font-sans flex offer h-screen'>
 
-        <offer className='w-1/2 fog py-32 xl:pl-32 pl-48 relative'>
+        <offer className='w-1/2 fog py-32 xl:pl-52 pl-48 relative'>
 
           <h1 className='text-black flex-start font-extrabold text-4xl text-left pb-7'>
             Аренда спецтехники <br/>
